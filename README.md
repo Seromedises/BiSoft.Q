@@ -28,5 +28,7 @@ The code is developed in Matlab 2023b. Installation of the Parallel Computing To
   - actuator.Bellows.E, Young's modulus of the bellows material for its stiffness estimation
   - actuator.Bellows.nu, Poisson's ration of the bellows material for its stiffness estimation
 
+Some of the geometrical parameters are defined by means of dimensionless ratios.
+
 https://github.com/user-attachments/assets/a846d4d5-e54a-4632-a96b-7a1f3173f108
 
