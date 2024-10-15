@@ -10,11 +10,11 @@ https://github.com/user-attachments/assets/2b0d14ee-fb9c-4b50-8b4b-db9917180dd8
 
 # How to use it
 
-The code is developed in Matlab 2023b. Installation of the Parallel Computing Toolbox is required.
-
-The modelling library is contained within the BiSoftQ_Class folder (both types A and B).
-
-The "DesignScript.m" file explains how to use the library.
+The code is developed in Matlab 2023b. Installation of the Parallel Computing Toolbox is required. The modelling library is contained within the BiSoftQ_Class folder (both types A and B). The "DesignScript.m" file explains how to model a BiSoft.Q actuator by giving as imput the following parameters:
+- Geometrical
+  - $L$
+- Physical
+  - $p$
 
 https://github.com/user-attachments/assets/a846d4d5-e54a-4632-a96b-7a1f3173f108
 
