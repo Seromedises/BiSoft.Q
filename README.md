@@ -16,9 +16,9 @@ The code is developed in Matlab 2023b. Installation of the Parallel Computing To
   - $l_{v,p}$, $l_{c,p}$, the valley and crest longitudinal arc lengths
   - $R_{ie,p}$, the radius of the arc defined in the median cross-sectional plane of the BiSoft.Q
   - $R_{ve,p}$ and $R_{ce,p}$, the radii of fillet arcs in the terminal cross-sectional plane
-  - $\displaystyle \frac{R_{im,p}}{R_{om,p}}$, the ratio of the inner valley and outer crest arcs defined in the median cross-sectional plane
+  - $R_{im,p}/R_{om,p}$, the ratio of the inner valley and outer crest arcs defined in the median cross-sectional plane
   - $N_{p}$, the number of pleats
-  - $R_{i,b}$, the bellows radius defined on the median cross-secitonal plane 
+  - $R_{i,b}$, the bellows radius defined on the median cross-sectional plane 
   - $\alpha_{b}$, the angle between two subsequent bellows folds
   - $R_{v,b}$ and $R_{c,b}$, the valley and crest fillet radii of the bellows \\ 
   - $N_b$, the number of bellows folds
