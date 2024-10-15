@@ -20,7 +20,7 @@ The code is developed in Matlab 2023b. Installation of the Parallel Computing To
   - $N_{p}$, the number of pleats
   - $R_{i,b}$, the bellows radius defined on the median cross-sectional plane 
   - $\alpha_{b}$, the angle between two subsequent bellows folds
-  - $R_{v,b}$ and $R_{c,b}$, the valley and crest fillet radii of the bellows \\ 
+  - $R_{v,b}$ and $R_{c,b}$, the valley and crest fillet radii of the bellows  
   - $N_b$, the number of bellows folds
   - $t$, thickness of the membranes
 - Physical
