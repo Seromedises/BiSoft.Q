@@ -16,58 +16,58 @@ tic
 % example of type "A" parameters
 % ----------------------------------------------------------------------- %
 % 
-% actuator_type = "A";
-% 
-% p_gauge_MPa = 0.1; % gauge pressure (MPa)
-% 
-% % geometric parameters of the pleated membrane
-% a2 = 0.85; % a2 = L/lc (theoric values: 2/pi<=a2<lv/lc)
-% a3 = 0.70; % a3 = Rve/Rce
-% a4 = 0.50; % a4 = Rce/Rce_max (0<a4<1)
-% a5 = 0.70; % a5 = Rim/Rom (<1)
-% a6 = 0.90; % a6 = lv/lc (<=1)
-% 
-% N = 8;
-% L = 30;
-% Rie = 15.48;
-% Rce = NaN;
-% Rve = NaN;
-% 
-% % geometric parameters of the bellows
-% Rib = 11.10; % inner radius of the bellows
-% ns = 3; % number of convolutions of the bellows
-% alpha_s = deg2rad(45); % half of the convolution angle
-% Rs1 = 1; % fillet radius of the concave part
-% Rs2 = 3; % fillet radius of the convex part
+actuator_type = "A";
+
+p_s_gauge = 0.1; % gauge pressure (MPa)
+
+% geometric parameters of the pleated membrane
+a2 = 0.85; % a2 = L/l_{c,p} (theoric values: 2/pi<=a2<lv/lc)
+a3 = 0.70; % a3 = R_{ve,p}/R_{ce,p}
+a4 = 0.50; % a4 = R{ce,p}/R_{ce,p}max (0<a4<1)
+a5 = 0.70; % a5 = R_{im,p}/R_{om,p} (<1)
+a6 = 0.90; % a6 = l_{v,p}/l_{c,p} (<=1)
+
+Np = 8;
+L = 30;
+Riep = 15.48;
+Rcep = NaN;
+Rvep = NaN;
+
+% geometric parameters of the bellows
+Rib = 11.10; % inner radius of the bellows
+nb = 3; % number of convolutions of the bellows
+alpha_b = deg2rad(45); % half of the convolution angle
+Rvb = 1; % fillet radius of the concave part
+Rcb = 3; % fillet radius of the convex part
 % ----------------------------------------------------------------------- %
 
 
 % example of type "B" parameters
 % ----------------------------------------------------------------------- %
 
-actuator_type = "B"; 
-
-p_gauge_MPa = 0.1; % gauge pressure (MPa)
-
-% geometric parameters of the pleated membrane
-a2 = 0.85; % a2 = L/lc (theoric values: 2/pi<=a2<=lv/lc)
-a3 = 0.70; % a3 = Rve/Rce
-a4 = 0.98; % a4 = Rce/Rce_max (0<a4<1)
-a5 = 0.658868116783836; % a5 = Rim/Rom (<1)
-a6 = 0.90; % a6 = lv/lc (<=1)
-
-N = 8;
-L = 30;
-Rie = 3.5;
-Rce = NaN;
-Rve = NaN;
-
-% geometric parameters of the bellows
-Rib = 19.414214; % inner radius of the bellows
-ns = 3; % number of convolutions of the bellows
-alpha_s = deg2rad(45); % half of the convolution angle
-Rs1 = 1; % fillet radius of the concave part
-Rs2 = 3; % fillet radius of the convex part
+% actuator_type = "B"; 
+% 
+% p_s_gauge = 0.1; % gauge pressure (MPa)
+% 
+% % geometric parameters of the pleated membrane
+% a2 = 0.85; % a2 = L/l_{c,p} (theoric values: 2/pi<=a2<lv/lc)
+% a3 = 0.70; % a3 = R_{ve,p}/R_{ce,p}
+% a4 = 0.98; % a4 = a4 = R{ce,p}/R_{ce,p}max (0<a4<1)
+% a5 = 0.658868116783836; % R_{im,p}/R_{om,p} (<1)
+% a6 = 0.90; % a6 = l_{v,p}/l_{c,p} (<=1)
+% 
+% Np = 8;
+% L = 30;
+% Riep = 3.5;
+% Rcep = NaN;
+% Rvep = NaN;
+% 
+% % geometric parameters of the bellows
+% Rib = 19.414214; % inner radius of the bellows
+% nb = 3; % number of convolutions of the bellows
+% alpha_b = deg2rad(45); % half of the convolution angle
+% Rvb = 1; % fillet radius of the concave part
+% Rcb = 3; % fillet radius of the convex part
 % ----------------------------------------------------------------------- %
 
 
@@ -83,9 +83,9 @@ Rs2 = 3; % fillet radius of the convex part
 NPoints = 100;
 
 % Create an instance of BiSoftQ class
-actuator = BiSoftQ(PleatedMembrane(a2,a3,a4,a5,a6,N,L,Rie,Rce,Rve,Rib), ...
-                   Bellows(L,Rib,ns,alpha_s,Rs1,Rs2), ...
-                   actuator_type,p_gauge_MPa);
+actuator = BiSoftQ(PleatedMembrane(a2,a3,a4,a5,a6,Np,L,Riep,Rcep,Rvep,Rib), ...
+                   Bellows(L,Rib,nb,alpha_b,Rvb,Rcb), ...
+                   actuator_type,p_s_gauge);
 
 % Plot nominal geometry (3d surface, cross sections, longitudinal cross
 % sections), i.e. geometry a x=0
