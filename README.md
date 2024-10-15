@@ -5,8 +5,7 @@ Colucci G. et al, A Bi-Directional Linear Artificial Muscle for Assistive Roboti
 
 # cool-beans
 
-[https://example.com/video.mp4
-](https://github.com/Seromedises/BiSoft.Q/blob/main/Media/BiSoftQ_Prototyping.mp4)
+[(https://github.com/Seromedises/BiSoft.Q/blob/main/Media/BiSoftQ_Prototyping.mp4)](https://github.com/Seromedises/BiSoft.Q/blob/main/Media/BiSoftQ_Modelling.mp4)
 
 Press play to see the video.
 
