@@ -32,6 +32,8 @@ Some of the geometrical parameters are defined by means of dimensionless ratios.
 
 https://github.com/user-attachments/assets/a846d4d5-e54a-4632-a96b-7a1f3173f108
 
+
+
 The script exports the BiSoft.Q geometry in .stl (monolithic design)
 
 <p align="center">
