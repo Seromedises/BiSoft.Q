@@ -1,6 +1,7 @@
 # BiSoft.Q
 This repository contains matlab code for simplified modelling of the BiSoft.Q bi-directional Pneumatic Artificial Muscle.
 
+<br>
 For further information, please refer to the following scientific paper:
 
 - Colucci G. et al, A Bi-Directional Linear Artificial Muscle for Assistive Robotic Systems, [...].
@@ -28,12 +29,12 @@ The code is developed in Matlab 2023b. Installation of the Parallel Computing To
   - actuator.Bellows.E, Young's modulus of the bellows material for its stiffness estimation
   - actuator.Bellows.nu, Poisson's ration of the bellows material for its stiffness estimation
 
-<br><br><br>
+<br><br>
 Some of the geometrical parameters are defined by means of dimensionless ratios.
 
 https://github.com/user-attachments/assets/a846d4d5-e54a-4632-a96b-7a1f3173f108
 
-<br><br><br>
+<br><br>
 The script exports the BiSoft.Q geometry in .stl (monolithic design)
 
 <p align="center">
