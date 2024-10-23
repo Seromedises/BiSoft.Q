@@ -38,7 +38,5 @@ The script exports the BiSoft.Q geometry in .stl (monolithic design)
   <img src="https://github.com/user-attachments/assets/8a9003da-711a-40fa-a122-c52bf30f8701" alt=""/>
 </p>
 
-![BiSoft_STL](https://github.com/user-attachments/assets/8a9003da-711a-40fa-a122-c52bf30f8701)
-
 
 
