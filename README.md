@@ -4,7 +4,7 @@ This repository contains matlab code for simplified modelling of the BiSoft.Q bi
 <br>
 For further information, please refer to the following scientific paper:
 
-- G. Colucci, S. Duretto, L. Tagliavini, A. Botta, and G. Quaglia, “A bi-directional pneumatic actuator for sustainable robotic systems,” Sensors and Actuators A: Physical, vol. 393, Art. no. 116800, Jun. 2025, doi: 10.1016/j.sna.2025.116800.
+- G. Colucci, S. Duretto, L. Tagliavini, A. Botta, and G. Quaglia, "A bi-directional pneumatic actuator for sustainable robotic systems," *Sensors and Actuators A: Physical*, vol. 393, Art. no. 116800, Jun. 2025, doi: [10.1016/j.sna.2025.116800](https://doi.org/10.1016/j.sna.2025.116800).
 
 
 https://github.com/user-attachments/assets/2b0d14ee-fb9c-4b50-8b4b-db9917180dd8
